@@ -13,19 +13,20 @@
         <article class="Descripcion">
           <div class="header__title">
             <h2 class="title">
-              Explora lo <span class="desta1">Creativo</span> <br> y descubre lo
+              Explora lo <span class="desta1">Creativo</span> <br />
+              y descubre lo
               <span class="desta2">Maravilloso</span>
             </h2>
           </div>
           <p class="paragraph">
-            Navega por nuestro Sitio para encontrar la imagen, foto o mockup
-            que necesitas.
+            Navega por nuestro Sitio para encontrar la imagen, foto o mockup que
+            necesitas.
           </p>
           <div class="section-btn">
-            <button type="button" class="btn">Galeria
-                <img src="../img/Arrow2.png" class="arrow" />
+            <button type="button" class="btn">
+              Galeria
+              <img src="../img/Arrow2.png" class="arrow" alt="icon-arrow"/>
             </button>
-            
           </div>
         </article>
       </section>
@@ -38,26 +39,83 @@
         </nav>
 
         <picture class="group-img">
-          <img src="../img/Imagenes-header.png" class="header__img" />
+          <source srcset="/img/Imagenes-header.avif" type="image/avif">
+          <source srcset="/img/Imagenes-header.webp" type="image/webp">
+          <img 
+            src="/img/Imagenes-header.png" 
+            class="header__img" 
+            alt="Imagen del header"
+          />
         </picture>
+        
       </section>
     </header>
 
     <section class="Galeria">
       <div class="galery-description">
         <h1 class="galery__title">Nuestra Galeria</h1>
-        <p class="galery__paragraph">Proyectos y comisiones con su artistas y el contexto de cada imagen</p>
+        <p class="galery__paragraph">
+          Proyectos y comisiones con su artistas y el contexto de cada imagen
+        </p>
       </div>
 
       <div class="seccion-imagenes">
-        <img src="/img/Fondo de nieve.jpg" class="main__imagenes img1">
-        <img src="/img/Circulo.jpg" class="main__imagenes img2">
-        <img src="/img/Tasa de cafe.jpg" class="main__imagenes img3">
-        <img src="/img/Ilustracion de mano.jpg" class="main__imagenes img4">
-        <img src="/img/Silla calida.jpg" class="main__imagenes img5">
-        <img src="/img/Desierto.jpg" class="main__imagenes img6">
-        <img src="/img/interior.jpg" class="main__imagenes img7">
-        <img src="/img/Montaña.jpg" class="main__imagenes img8">
+        <img
+          src="/img/Fondo de nieve.webp"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img1"
+          loading="lazy"
+          alt="Fondo de nieve"
+        />
+        <img
+          src="/img/Circulo.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img2"
+          loading="lazy"
+          alt="Círculo"
+        />
+        <img
+          src="/img/tasa de cafe.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img3"
+          loading="lazy"
+          alt="Tasa de café"
+        />
+        <img
+          src="/img/Ilustracion de mano.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img4"
+          loading="lazy"
+          alt="Ilustración de mano"
+        />
+        <img
+          src="/img/Silla calida.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img5"
+          loading="lazy"
+          alt="Silla cálida"
+        />
+        <img
+          src="/img/Desierto.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img6"
+          loading="lazy"
+          alt="Desierto"
+        />
+        <img
+          src="/img/interior.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img7"
+          loading="lazy"
+          alt="Interior"
+        />
+        <img
+          src="/img/Montaña.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          class="main__imagenes img8"
+          loading="lazy"
+          alt="Montaña"
+        />
       </div>
     </section>
   </body>
