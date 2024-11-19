@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Fustat";
+  src: url(../tipografias/Fustat-VariableFont_wght.ttf) format("opentype");
+}
+
+body {
+  font-family: "Fustat";
+}
+
+.header-main {
+  display: flex;
+  height: 700px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+/* todo: Header uno */
+.header1 {
+  display: flex;
+  width: 714px;
+  padding: 8px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 8px;
+  font-size: 36px;
+}
+
+.Descripcion {
+  display: flex;
+  padding: 70px 0 0 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  color: black;
+}
+
+.title {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.desta1 {
+  background: linear-gradient(270deg, #ffa260 11.78%, #ff2626 88.22%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desta2 {
+  background: linear-gradient(270deg, #29f900 12%, #4151ff 88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+  color: #777575;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.section-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.btn {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  background: #101010;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Fustat";
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  gap: 8px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+
+/* todo: Header dos */
+.header2 {
+  display: flex;
+  padding: 8px 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.navigation {
+  display: flex;
+  padding: 0px 30px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 49px;
+  align-self: stretch;
+}
+
+.navi {
+  color: #161616;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header__img {
+  position: relative;
+  left: 40px;
+  top: 50px;
+  width: 530px;
+  height: 424px;
+}
