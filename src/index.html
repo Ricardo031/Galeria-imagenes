@@ -25,7 +25,7 @@
           <div class="section-btn">
             <button type="button" class="btn">
               Galeria
-              <img src="../img/Arrow2.png" class="arrow" alt="icon-arrow"/>
+              <img src="../img/Arrow2.png" class="arrow" alt="icon-arrow" />
             </button>
           </div>
         </article>
@@ -39,15 +39,14 @@
         </nav>
 
         <picture class="group-img">
-          <source srcset="/img/Imagenes-header.avif" type="image/avif">
-          <source srcset="/img/Imagenes-header.webp" type="image/webp">
-          <img 
-            src="/img/Imagenes-header.png" 
-            class="header__img" 
+          <source srcset="/img/Imagenes-header.avif" type="image/avif" />
+          <source srcset="/img/Imagenes-header.webp" type="image/webp" />
+          <img
+            src="/img/Imagenes-header.png"
+            class="header__img"
             alt="Imagen del header"
           />
         </picture>
-        
       </section>
     </header>
 
@@ -118,5 +117,42 @@
         />
       </div>
     </section>
+
+    <div id="modalOverlay" class="modal-overlay"></div>
+    <div class="modal-content" id="mainModal">
+      <img src="/svg/circle-x.svg" alt="close" class="close" />
+      <img
+        src="/img/tasa de cafe.jpg"
+        alt="Imagen seleccionada"
+        class="image-select"
+      />
+
+      <picture class="modal-Icons">
+        <img src="/svg/share.svg" alt="Share icons" class="modal__icon icon1" id="shareIcon"/>
+        <img src="/svg/heart.svg" alt="Heart Icon" class="modal__icon" id="heartIcon" />
+        <img src="/svg/user-check.svg" alt="User Icons" class="modal__icon icon3" id="userIcon"/>
+      </picture>
+
+      <div class="modal-description">
+        <div class="modal-title">
+          <h2 class="name-img">Nombre de la imagen</h2>
+          <img src="/svg/img.svg" alt="icon img" />
+        </div>
+
+        <p class="paragraph__img">Lorem ipsum</p>
+
+        <div class="creator">
+          <p class="name-creator">Nombe del creador</p>
+          <figure class="img-creator">
+            <img
+              src="/img/perfiles/Perfil3.jpg"
+              alt="perfil"
+              class="creator__perfil"
+            />
+          </figure>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="main.js"></script>
 </html>
