@@ -31,7 +31,7 @@ const imageData = [
   {
     src: "/img/tasa de cafe.jpg",
     title: "Tasa de café",
-    description: "Esta imagen fue tomada en un día lluvioso, mientras el autor disfrutaba de una taza de café recién hecho. La composición sencilla, con un fondo de sábanas beige, refleja calidez y confort. Inspirado en las mañanas tranquilas en casa, el autor busca evocar una sensación de nostalgia y aprecio por los momentos simples de la vida. Cada detalle, desde la textura de la tela hasta la tonalidad del café, fue cuidadosamente pensado para transmitir una experiencia multisensorial.",
+    description: "Esta imagen fue tomada en un día lluvioso, mientras el autor disfrutaba de una taza de café recién hecho. La composición sencilla, con un fondo de sábanas beige, refleja calidez y confort. Inspirado en las mañanas tranquilas en casa, el autor busca evocar una sensación de nostalgia y aprecio por los momentos simples de la vida.",
     creator: "Coffee Lover",
     creatorImg: "/img/perfiles/Perfil3.jpg",
   },
@@ -66,7 +66,7 @@ const imageData = [
   {
     src: "/img/Montaña.jpg",
     title: "Montaña",
-    description: "La majestuosidad de las montañas queda plasmada en esta fotografía, tomada durante un amanecer en los Andes. El autor explica que la inspiración provino del esfuerzo físico y mental necesario para alcanzar la cima. Este trabajo busca transmitir la idea de superación personal, mientras que los colores del cielo, en tonos rosados y naranjas, simbolizan el renacimiento y la esperanza. Es un recordatorio de que las grandes recompensas requieren sacrificio y determinación.",
+    description: "La majestuosidad de las montañas queda plasmada en esta fotografía, tomada durante un amanecer en los Andes. El autor explica que la inspiración provino del esfuerzo físico y mental necesario para alcanzar la cima. Este trabajo busca transmitir la idea de superación personal, mientras que los colores del cielo, en tonos rosados y naranjas, simbolizan el renacimiento y la esperanza.",
     creator: "Nature Lover",
     creatorImg: "/img/perfiles/Perfil8.jpeg",
   },
