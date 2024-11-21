@@ -38,15 +38,13 @@
           <a href="#" class="navi">Blog</a>
         </nav>
 
-        <picture class="group-img">
-          <source srcset="/img/Imagenes-header.avif" type="image/avif" />
-          <source srcset="/img/Imagenes-header.webp" type="image/webp" />
-          <img
-            src="/img/Imagenes-header.png"
-            class="header__img"
-            alt="Imagen del header"
-          />
-        </picture>
+        <source srcset="img/Imagenes-header.avif" type="image/avif" />
+        <source srcset="img/Imagenes-header.webp" type="image/webp" />
+        <img
+          src="img/Imagenes-header.webp"
+          class="header__img"
+          alt="Imagen del header"
+        />
       </section>
     </header>
 
@@ -60,56 +58,56 @@
 
       <div class="seccion-imagenes">
         <img
-          src="/img/Fondo de nieve.webp"
+          src="img/Fondo de nieve.webp"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img1"
           loading="lazy"
           alt="Fondo de nieve"
         />
         <img
-          src="/img/Circulo.jpg"
+          src="img/Circulo.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img2"
           loading="lazy"
           alt="Círculo"
         />
         <img
-          src="/img/tasa de cafe.jpg"
+          src="img/tasa de cafe.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img3"
           loading="lazy"
           alt="Tasa de café"
         />
         <img
-          src="/img/Ilustracion de mano.jpg"
+          src="img/Ilustracion de mano.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img4"
           loading="lazy"
           alt="Ilustración de mano"
         />
         <img
-          src="/img/Silla calida.jpg"
+          src="img/Silla calida.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img5"
           loading="lazy"
           alt="Silla cálida"
         />
         <img
-          src="/img/Desierto.jpg"
+          src="img/Desierto.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img6"
           loading="lazy"
           alt="Desierto"
         />
         <img
-          src="/img/interior.jpg"
+          src="img/interior.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img7"
           loading="lazy"
           alt="Interior"
         />
         <img
-          src="/img/Montaña.jpg"
+          src="img/Montaña.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           class="main__imagenes img8"
           loading="lazy"
@@ -120,23 +118,38 @@
 
     <div id="modalOverlay" class="modal-overlay"></div>
     <div class="modal-content" id="mainModal">
-      <img src="/svg/circle-x.svg" alt="close" class="close" />
+      <img src="svg/circle-x.svg" alt="close" class="close" />
       <img
-        src="/img/tasa de cafe.jpg"
+        src="img/tasa de cafe.jpg"
         alt="Imagen seleccionada"
         class="image-select"
       />
 
       <picture class="modal-Icons">
-        <img src="/svg/share.svg" alt="Share icons" class="modal__icon icon1" id="shareIcon"/>
-        <img src="/svg/heart.svg" alt="Heart Icon" class="modal__icon" id="heartIcon" />
-        <img src="/svg/user-check.svg" alt="User Icons" class="modal__icon icon3" id="userIcon"/>
+        <img
+          src="svg/share.svg"
+          alt="Share icons"
+          class="modal__icon icon1"
+          id="shareIcon"
+        />
+        <img
+          src="svg/heart.svg"
+          alt="Heart Icon"
+          class="modal__icon"
+          id="heartIcon"
+        />
+        <img
+          src="svg/user-check.svg"
+          alt="User Icons"
+          class="modal__icon icon3"
+          id="userIcon"
+        />
       </picture>
 
       <div class="modal-description">
         <div class="modal-title">
           <h2 class="name-img">Nombre de la imagen</h2>
-          <img src="/svg/img.svg" alt="icon img" />
+          <img src="svg/img.svg" alt="icon img" />
         </div>
 
         <p class="paragraph__img">Lorem ipsum</p>
@@ -145,7 +158,7 @@
           <p class="name-creator">Nombe del creador</p>
           <figure class="img-creator">
             <img
-              src="/img/perfiles/Perfil3.jpg"
+              src="img/perfiles/Perfil3.jpg"
               alt="perfil"
               class="creator__perfil"
             />
